@@ -16,7 +16,7 @@ export const Main = () => {
     setResponse(null);
 
     try {
-      const res = await fetch("https://rag-project-production.up.railway.app/ask", {
+      const res = await fetch("https://rag-welee-m0gxz.kinsta.app//ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: input }),
